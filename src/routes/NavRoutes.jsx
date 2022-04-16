@@ -1,8 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import { Home } from "../pages/Home/Home";
-import { Products } from "../pages/Products/Products";
-import { Wishlist } from "../pages/Wishlist/Wishlist";
-import { Cart } from "../pages/Cart/Cart";
+import { Home, Wishlist, Products, Cart } from "../pages";
 
 const NavRoutes = () => {
   return (

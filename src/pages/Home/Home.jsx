@@ -2,15 +2,17 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 import { Navbar } from "../../components/Navbar/Navbar";
 import { Footer } from "../../components/Footer/Footer";
-import bannerOne from "../../assets/images/banner-1.jpeg";
-import bannerTwo from "../../assets/images/banner-2.jpeg";
-import bannerThree from "../../assets/images/banner-3.jpeg";
-import arrowLeft from "../../assets/icons/btn-arrow-left.svg";
-import arrowRight from "../../assets/icons/btn-arrow-right.svg";
-import bedOne from "../../assets/images/bed1.jpg";
-import chairSeven from "../../assets/images/chair7.jpg";
-import lampOne from "../../assets/images/lamp1.jpg";
-import stoolFive from "../../assets/images/stool5.jpg";
+import {
+  bannerOne,
+  bannerTwo,
+  bannerThree,
+  arrowLeft,
+  arrowRight,
+  bedOne,
+  chairSeven,
+  lampOne,
+  stoolFive,
+} from "../../assets";
 
 const Home = () => {
   return (
